@@ -16,3 +16,6 @@ asdf local grpcurl 1.8.8
 grpcurl -plaintext localhost:50051 list
 grpcurl -plaintext -d '{"name": "World"}' localhost:50051 hello.HelloService/SayHello
 ```
+
+asdf
+- [docs](https://asdf-vm.com/guide/getting-started.html)
